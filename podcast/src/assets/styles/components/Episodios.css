@@ -1,0 +1,17 @@
+.Episodios {
+  width: 100%;
+  height: 1040.6px;
+  background-image: linear-gradient(225deg, #0000ff, #0000a3);
+  clip-path: polygon(0% 18%, 100% 3%, 100% 87%, 0% 100%);
+  padding: 186px 100px;
+}
+
+.Episodios .TituloPodcast {
+  margin-left: 100px;
+}
+
+.Episodios__iframes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 72px;
+}

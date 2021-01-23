@@ -4,7 +4,7 @@ import "../assets/styles/components/TituloPodcast.css";
 const TituloPodcast = ({ title, color }) => {
   return (
     <h2
-      className={`"TituloPodcast", ${
+      className={`TituloPodcast ${
         color ? "TitlePodcast__black" : "TitlePodcast__white"
       }`}
     >
