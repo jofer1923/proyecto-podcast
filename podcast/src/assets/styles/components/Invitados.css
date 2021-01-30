@@ -1,0 +1,23 @@
+section.entrevista {
+  width: 100%;
+  position: relative;
+  top: -100px;
+}
+
+.entrevista h2 {
+  margin-left: 200px;
+}
+section.entrevista > div.galeria-ent {
+  width: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+section.entrevista > div.galeria-ent > img {
+  width: 100%;
+  max-width: auto;
+  height: auto;
+  margin: 0;
+  content: fixed;
+}

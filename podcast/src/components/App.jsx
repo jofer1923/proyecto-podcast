@@ -1,18 +1,23 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
 import HelloWorld from "./HelloWorld";
 import Episodios from "./Episodios";
 import We from "./We";
+import Invitados from "./Invitados";
+import Layout from "./Layout";
+import Topics from "./Topics";
+import TopicContainer from "./TopicContainer";
+import News from "./News";
 
 const App = () => (
-  <>
-    <Header />
+  <Layout>
     <HelloWorld />
     <Episodios />
     <We />
-    <Footer />
-  </>
+    <Invitados />
+    <Topics />
+    <TopicContainer />
+    <News />
+  </Layout>
 );
 
 export default App;

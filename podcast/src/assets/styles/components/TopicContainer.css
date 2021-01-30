@@ -1,0 +1,18 @@
+.temas {
+  width: 100%;
+  position: relative;
+  top: -180px;
+}
+
+.temas h2 {
+  margin-left: 200px;
+}
+
+div.temas-n {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 56px;
+}
